@@ -1,0 +1,1 @@
+C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\03-Ghidra-01\01-integer\integer_bin\target\debug\integer_bin.exe: C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\03-Ghidra-01\01-integer\integer_bin\src\main.rs
