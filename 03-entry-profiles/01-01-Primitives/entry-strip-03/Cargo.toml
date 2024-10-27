@@ -1,0 +1,11 @@
+[package]
+name = "entry-strip-03"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.release]
+strip = true # Automatically strip symbols from the binary
+opt-level = "s" # Optimise for size
+lto = true # Enable link time optimisation

@@ -1,0 +1,1 @@
+/Users/lesmo/rust-projects/01-Comparison-of-c-rust/01-01-Primitives/entry-dev-05/target/debug/entry-dev-05: /Users/lesmo/rust-projects/01-Comparison-of-c-rust/01-01-Primitives/entry-dev-05/src/main.rs

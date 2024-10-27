@@ -1,0 +1,9 @@
+[package]
+name = "entry-dev-06"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.dev]
+opt-level = "z"

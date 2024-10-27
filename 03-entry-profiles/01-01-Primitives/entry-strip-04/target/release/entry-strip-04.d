@@ -1,0 +1,1 @@
+/Users/lesmo/rust-projects/01-Comparison-of-c-rust/01-01-Primitives/entry-strip-04/target/release/entry-strip-04: /Users/lesmo/rust-projects/01-Comparison-of-c-rust/01-01-Primitives/entry-strip-04/src/main.rs
