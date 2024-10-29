@@ -1,0 +1,1 @@
+/Users/lesmo/Documents/Github/Rusty-C-binaries/Rust/03-entry-profiles/release-basic/target/release/release-basic: /Users/lesmo/Documents/Github/Rusty-C-binaries/Rust/03-entry-profiles/release-basic/src/main.rs
