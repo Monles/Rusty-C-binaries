@@ -1,0 +1,1 @@
+C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\vowel\target\debug\vowel.exe: C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\vowel\src\main.rs

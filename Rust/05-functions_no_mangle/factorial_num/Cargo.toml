@@ -1,0 +1,10 @@
+[package]
+name = "factorial_num"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[profile.dev]
+opt-level = "s"

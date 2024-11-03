@@ -1,0 +1,1 @@
+C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\06-no-std\no_std_01\target\thumbv7em-none-eabihf\debug\no_std_01: C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\06-no-std\no_std_01\src\main.rs

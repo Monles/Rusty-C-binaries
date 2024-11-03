@@ -1,0 +1,1 @@
+C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\add-nums\target\debug\add-nums.exe: C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\add-nums\src\main.rs

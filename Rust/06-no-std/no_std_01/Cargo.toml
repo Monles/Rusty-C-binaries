@@ -1,0 +1,13 @@
+[package]
+name = "no_std_01"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.dev]
+opt-level = "s"
+panic = "abort"
+
+[profile.release]
+panic = "abort"

@@ -1,0 +1,1 @@
+C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\factorial_num\target\debug\factorial_num.exe: C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\factorial_num\src\main.rs

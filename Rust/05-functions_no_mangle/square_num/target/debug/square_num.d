@@ -1,0 +1,1 @@
+C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\square_num\target\debug\square_num.exe: C:\Users\zccan\Documents\GitHub\Rusty-Research\01-Rust_VS_C\05-functions_no_mangle\square_num\src\main.rs
