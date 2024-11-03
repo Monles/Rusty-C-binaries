@@ -1,0 +1,1 @@
+C:\Users\zccan\Documents\GitHub\Rusty-C-binaries\Rust\01-Hello-World\hello_return\target\debug\hello_return.exe: C:\Users\zccan\Documents\GitHub\Rusty-C-binaries\Rust\01-Hello-World\hello_return\src\main.rs
