@@ -1,0 +1,10 @@
+[package]
+name = "start02"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+non_std = "0.1.4"
+
+[profile.release]
+opt-level = "s" # Optimise for size
