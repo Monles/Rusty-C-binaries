@@ -6,5 +6,8 @@ edition = "2021"
 [dependencies]
 non_std = "0.1.4"
 
+[profile.dev]
+opt-level = "s" # Optimise for size
+
 [profile.release]
 opt-level = "s" # Optimise for size
