@@ -79,11 +79,37 @@ They tried to link Linux OS libraries.
 ![](./screenshots/Kali-stripped/release/20.png)
 
 # C (Stripped)
+
 ![](./screenshots/Kali-stripped/c-stripped/21.png)
 
+![](./screenshots/Kali-stripped/c-stripped/37.png)
+The binary is apparently much smaller containing less information.
+![](./screenshots/Kali-stripped/c-stripped/39.png)
+Dynamic Linking failed.
+![](./screenshots/Kali-stripped/c-stripped/40.png)
+![](./screenshots/Kali-stripped/c-stripped/41.png)
+
+### Analysing Options are different from Rust version.
+![](./screenshots/RE/C-stripped/48.png)
+
+# RE
+### Rntry Point
+![](./screenshots/RE/C-stripped/42.png)
+![](./screenshots/RE/C-stripped/43.png)
+
+No direct link to `main`function due to stripping.
+![](./screenshots/RE/C-stripped/44.png)
+![](./screenshots/RE/C-stripped/45.png)
+From `Symbol Tree`, we cannot find `_start` (original entry point before `libc_start_main`) or `main`.
+![](./screenshots/RE/C-stripped/46.png)
+![](./screenshots/RE/C-stripped/47.png)
+
+![](./screenshots/RE/C-stripped/57.png)
+![](./screenshots/RE/C-stripped/58.png)
 
 
-
+## Code flow
+Check the diagrams
 
 ----
 ----
@@ -116,6 +142,22 @@ Many unsupported thread symbols due to the mangling scheme/strings.
 - Instead, it relies on shared libraries (e.g., `libc.so.6`) that are linked at runtime by the dynamic linker (`ld-linux.so`).
 ![](./screenshots/Unstripped/C/25.png)
 ![](./screenshots/Unstripped/C/26.png)
+
+### Analysing Options are different from Rust version.
+![](./screenshots/RE/C-stripped/48.png)
+Main function shows up immediately.
+![](./screenshots/RE/C-stripped/49.png)
+![](./screenshots/RE/C-stripped/50.png)
+Symbol Tree shows the clear pattern as well.
+![](./screenshots/RE/C-stripped/51.png)
+![](./screenshots/RE/C-stripped/52.png)
+
+## Code flow
+Check with the diagrams
+![](./screenshots/RE/C-stripped/53.png)
+![](./screenshots/RE/C-stripped/54.png)
+![](./screenshots/RE/C-stripped/55.png)
+![](./screenshots/RE/C-stripped/56.png)
 
 
 
