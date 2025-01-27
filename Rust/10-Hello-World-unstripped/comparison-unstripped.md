@@ -155,7 +155,7 @@ Many unsupported thread symbols due to the mangling scheme/strings.
 ![](./screenshots/RE/Rust-unstripped/81.png)
 
 ## Analyzers
-They all have functions to:
+They all have functions below:
 - Demangler Rust
 - Rust String Analyzer
 ![](./screenshots/RE/Rust-unstripped/59.png)
@@ -204,6 +204,11 @@ You can find the diagram above as well.
 ![](./screenshots/RE/Rust-unstripped/76.png)
 
 
+Please view the diagram above for clear overview.
+![](./screenshots/RE/Rust-unstripped/84.png)
+![](./screenshots/RE/Rust-unstripped/85.png)
+![](./screenshots/RE/Rust-unstripped/86.png)
+![](./screenshots/RE/Rust-unstripped/87.png)
 
 
 
