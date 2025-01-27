@@ -91,12 +91,29 @@ They tried to link Linux OS libraries.
 
 # Unstripped
 ## Rust (Unstripped)
+![](./screenshots/Unstripped/Rust/35.png)
+
+![](./screenshots/Unstripped/Rust/28.png)
+![](./screenshots/Unstripped/Rust/29.png)
+More `ELF` source files while importing the binary to Ghidra.
+![](./screenshots/Unstripped/Rust/30.png)
+More required libraries.
+![](./screenshots/Unstripped/Rust/31.png)
+Many unsupported thread symbols due to the mangling scheme/strings.
+![](./screenshots/Unstripped/Rust/32.png)
+![](./screenshots/Unstripped/Rust/33.png)
+![](./screenshots/Unstripped/Rust/36.png)
+
 
 
 ## C (Unstripped)
 ![](./screenshots/Unstripped/22.png)
 ![](./screenshots/Unstripped/C/23.png)
 ![](./screenshots/Unstripped/C/24.png)
+### Dynamic Linking
+- That's because I compiled the c program with `gcc` on Kali Linux without static linking.
+- The binary doesn't contain the full implementation of the library functions it used (like `printf`).
+- Instead, it relies on shared libraries (e.g., `libc.so.6`) that are linked at runtime by the dynamic linker (`ld-linux.so`).
 ![](./screenshots/Unstripped/C/25.png)
 ![](./screenshots/Unstripped/C/26.png)
 
