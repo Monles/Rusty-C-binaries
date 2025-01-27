@@ -85,6 +85,55 @@ They tried to link Linux OS libraries.
 ![](./screenshots/Kali-stripped/release/19.png)
 ![](./screenshots/Kali-stripped/release/20.png)
 
+---
+
+# RE
+### Entry Point
+![](./screenshots/RE/Rust-stripped/89.png)
+## Symbol Tree 
+
+### _start
+![](./screenshots/RE/Rust-stripped/90.png)
+### main
+It loads (`LEA`) to `rust_hello::main`(as a paramter), then jumps to `std::rt::lang_start`.
+![](./screenshots/RE/Rust-stripped/91.png)
+### Deassembly
+![](./screenshots/RE/Rust-stripped/92.png)
+### Decompiled
+![](./screenshots/RE/Rust-stripped/93.png)
+### _rustcall main()
+`rust_hello::main`
+![](./screenshots/RE/Rust-stripped/94.png)
+### Decompiled  
+![](./screenshots/RE/Rust-stripped/95.png)
+
+# Rust runtime (RT)
+### lang_start
+Symbol tree
+![](./screenshots/RE/Rust-stripped/96.png)
+
+### Deassembly
+![](./screenshots/RE/Rust-stripped/97.png)
+
+### Decompiled
+![](./screenshots/RE/Rust-stripped/98.png)
+
+
+### lang_start_internal
+From `lang_start`
+![](./screenshots/RE/Rust-stripped/99.png)
+### Deassembly
+![](./screenshots/RE/Rust-stripped/100.png)
+### Decompiled
+![](./screenshots/RE/Rust-stripped/101.png)
+
+
+
+
+---
+---
+---
+
 # C (Stripped)
 
 ![](./screenshots/Kali-stripped/c-stripped/21.png)
@@ -205,9 +254,17 @@ You can find the diagram above as well.
 
 
 Please view the diagram above for clear overview.
+
+There are C runtime  `main`function (demangled), then it leads to Rust `main` function (mangled). 
+
+This is c runtime `main` function.
 ![](./screenshots/RE/Rust-unstripped/84.png)
+Rust `main`.
 ![](./screenshots/RE/Rust-unstripped/85.png)
+Rust main func
 ![](./screenshots/RE/Rust-unstripped/86.png)
+
+C main func
 ![](./screenshots/RE/Rust-unstripped/87.png)
 
 
