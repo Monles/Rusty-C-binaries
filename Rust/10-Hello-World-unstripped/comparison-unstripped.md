@@ -90,6 +90,13 @@ They tried to link Linux OS libraries.
 # RE
 ### Entry Point
 ![](./screenshots/RE/Rust-stripped/89.png)
+
+Unable to open the external library due to stripping
+![](./screenshots/RE/Rust-stripped/102.png)
+Unable to perform external library `_libc_start_main`.
+![](./screenshots/RE/Rust-stripped/104.png)
+
+
 ## Symbol Tree 
 
 ### _start
