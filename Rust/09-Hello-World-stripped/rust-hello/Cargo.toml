@@ -1,0 +1,23 @@
+[package]
+name = "rust-hello"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[profile.dev]
+opt-level = "z"
+overflow-checks = false
+
+
+[profile.release]
+opt-level = "z"
+overflow-checks = false
+strip="debuginfo"
+lto = false
+panic = 'unwind'
+debug-assertions = false
+incremental = false 
+rpath = false
+
