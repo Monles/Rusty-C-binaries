@@ -1,3 +1,10 @@
+# Ghidra Version
+![](./screenshots/RE/Rust-unstripped/63.png)
+Version 11.2.1, released on 4th Nov. 2024. JAVA V.21.0.5.
+
+![](./screenshots/RE/Rust-unstripped/82.png)
+Ghidra V 11.0, released on 23rd Dec. 2023. JAVA V.17.0.14-ea.
+
 # Binary sizes
 ### C - Windows Compilation
 Unstripped.
@@ -130,7 +137,78 @@ Many unsupported thread symbols due to the mangling scheme/strings.
 ![](./screenshots/Unstripped/Rust/33.png)
 ![](./screenshots/Unstripped/Rust/36.png)
 
+---
 
+# RE
+## Ghidra V.2024
+- ⭐ So, actually Ghidra can detect whether the binary is Rust or not.
+- But fail to demangle the rust managled strings
+
+## Ghidra V.2023
+![](./screenshots/RE/Rust-unstripped/82.png)
+
+### Before
+![](./screenshots/RE/Rust-unstripped/83.png)
+
+### After
+![](./screenshots/RE/Rust-unstripped/80.png)
+![](./screenshots/RE/Rust-unstripped/81.png)
+
+## Analyzers
+They all have functions to:
+- Demangler Rust
+- Rust String Analyzer
+![](./screenshots/RE/Rust-unstripped/59.png)
+
+Entry point can find `main` in Rust if this binary is unstripped.
+![](./screenshots/RE/Rust-unstripped/60.png)
+However, the strings are manageld still.
+![](./screenshots/RE/Rust-unstripped/61.png)
+
+Need to manually demange the strings if possible.
+![](./screenshots/RE/Rust-unstripped/62.png)
+
+Tried Legact feature, it seems not working.
+![](./screenshots/RE/Rust-unstripped/64.png)
+
+# Code flow
+You can find the diagram above as well.
+## Symbol Tree  
+![](./screenshots/RE/Rust-unstripped/71.png)
+## RT module
+![](./screenshots/RE/Rust-unstripped/72.png)
+
+
+## _start
+![](./screenshots/RE/Rust-unstripped/65.png)
+![](./screenshots/RE/Rust-unstripped/66.png)
+# _libc_start_main
+![](./screenshots/RE/Rust-unstripped/67.png)
+![](./screenshots/RE/Rust-unstripped/68.png)
+# main
+![](./screenshots/RE/Rust-unstripped/69.png)
+![](./screenshots/RE/Rust-unstripped/70.png)
+
+# Rust Runtime (RT)
+## lang_start
+## lang_start_internal
+![](./screenshots/RE/Rust-unstripped/73.png)
+![](./screenshots/RE/Rust-unstripped/74.png)
+
+# Panicking
+![](./screenshots/RE/Rust-unstripped/79.png)
+
+
+# Thread
+![](./screenshots/RE/Rust-unstripped/75.png)
+![](./screenshots/RE/Rust-unstripped/76.png)
+
+
+
+
+
+
+---
 
 ## C (Unstripped)
 ![](./screenshots/Unstripped/22.png)
