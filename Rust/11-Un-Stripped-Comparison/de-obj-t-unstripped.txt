@@ -1,0 +1,764 @@
+
+rust-unstripped-v3:	file format mach-o arm64
+
+SYMBOL TABLE:
+00000001000008f0 l     F __TEXT,__text _std::rt::lang_start::{{closure}}
+000000010000090c l     F __TEXT,__text _std::sys::backtrace::__rust_begin_short_backtrace
+0000000100000920 l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+000000010000093c l     F __TEXT,__text _rust_unstripped_v3::main
+00000001000009cc l     F __TEXT,__text _<T as core::any::Any>::type_id
+00000001000009fc l     F __TEXT,__text _<T as core::any::Any>::type_id
+0000000100000a2c l     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+0000000100000a5c l     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+0000000100000a78 l     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+0000000100000a94 l     F __TEXT,__text _<&T as core::fmt::Display>::fmt
+0000000100000afc l     F __TEXT,__text _<&T as core::fmt::Display>::fmt
+0000000100000b18 l     F __TEXT,__text _core::fmt::num::<impl core::fmt::Debug for i32>::fmt
+0000000100000b44 l     F __TEXT,__text _core::fmt::Write::write_char
+0000000100000cc0 l     F __TEXT,__text _core::fmt::Write::write_char
+0000000100000e00 l     F __TEXT,__text _core::fmt::Write::write_char
+0000000100000f28 l     F __TEXT,__text _core::fmt::Write::write_fmt
+0000000100000f44 l     F __TEXT,__text _core::fmt::Write::write_fmt
+0000000100000f60 l     F __TEXT,__text _core::fmt::Write::write_fmt
+0000000100000f7c l     F __TEXT,__text _core::fmt::Write::write_fmt
+0000000100000f98 l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+000000010000103c l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+0000000100001064 l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+000000010000107c l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+000000010000108c l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+00000001000010a4 l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+0000000100001124 l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+0000000100001134 l     F __TEXT,__text _core::ops::function::FnOnce::call_once{{vtable.shim}}
+0000000100001194 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
+00000001000011c4 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<(usize,std::backtrace_rs::symbolize::gimli::Mapping)>>
+0000000100001288 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::collections::btree::map::BTreeMap<u64,gimli::read::abbrev::Abbreviation>>
+0000000100001338 l     F __TEXT,__text _core::ptr::drop_in_place<addr2line::Context<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>
+0000000100001458 l     F __TEXT,__text _core::ptr::drop_in_place<addr2line::ResUnit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>
+000000010000153c l     F __TEXT,__text _core::ptr::drop_in_place<addr2line::SupUnit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>
+0000000100001590 l     F __TEXT,__text _core::ptr::drop_in_place<core::result::Result<&std::thread::Thread,(&std::thread::Thread,std::thread::Thread)>>
+00000001000015d0 l     F __TEXT,__text _core::ptr::drop_in_place<gimli::read::dwarf::Dwarf<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>
+0000000100001628 l     F __TEXT,__text _core::ptr::drop_in_place<gimli::read::dwarf::Unit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>,usize>>
+000000010000167c l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<core::option::Option<core::option::Option<std::backtrace_rs::symbolize::gimli::Mapping>>>>
+0000000100001788 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<addr2line::ResUnit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>>
+000000010000184c l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<addr2line::SupUnit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>>
+0000000100001940 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::boxed::Box<[addr2line::ResUnit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>]>>
+00000001000019f4 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::boxed::Box<[addr2line::SupUnit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>]>>
+0000000100001ad8 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::sync::ArcInner<gimli::read::dwarf::Dwarf<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>>
+0000000100001b30 l     F __TEXT,__text _core::ptr::drop_in_place<core::result::Result<addr2line::FrameIter<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>,gimli::read::Error>>
+0000000100001b74 l     F __TEXT,__text _core::ptr::drop_in_place<core::option::Option<gimli::read::line::IncompleteLineProgram<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>,usize>>>
+0000000100001c08 l     F __TEXT,__text _core::ptr::drop_in_place<core::result::Result<addr2line::function::Functions<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>,gimli::read::Error>>
+0000000100001ce0 l     F __TEXT,__text _core::ptr::drop_in_place<std::sys::thread_local::native::lazy::State<core::cell::Cell<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>,()>>
+0000000100001d20 l     F __TEXT,__text _core::ptr::drop_in_place<(gimli::read::UnitOffset,addr2line::lazy::LazyCell<core::result::Result<addr2line::function::Function<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>,gimli::read::Error>>)>
+0000000100001d84 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<(gimli::read::UnitOffset,addr2line::lazy::LazyCell<core::result::Result<addr2line::function::Function<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>,gimli::read::Error>>)>>
+0000000100001e30 l     F __TEXT,__text _core::ptr::drop_in_place<gimli::read::line::LineRows<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>,gimli::read::line::IncompleteLineProgram<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>,usize>,usize>>
+0000000100001eb8 l     F __TEXT,__text _core::ptr::drop_in_place<<alloc::collections::btree::map::IntoIter<K,V,A> as core::ops::drop::Drop>::drop::DropGuard<u64,core::result::Result<alloc::sync::Arc<gimli::read::abbrev::Abbreviations>,gimli::read::Error>,alloc::alloc::Global>>
+0000000100001f3c l     F __TEXT,__text _core::ptr::drop_in_place<alloc::boxed::Box<[(gimli::read::UnitOffset,addr2line::lazy::LazyCell<core::result::Result<addr2line::function::Function<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>,gimli::read::Error>>)]>>
+0000000100001fd8 l     F __TEXT,__text _core::ptr::drop_in_place<core::result::Result<core::option::Option<alloc::boxed::Box<(alloc::sync::Arc<gimli::read::dwarf::Dwarf<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>>>,gimli::read::dwarf::Unit<gimli::read::endian_slice::EndianSlice<gimli::endianity::LittleEndian>,usize>)>>,gimli::read::Error>>
+00000001000020ac l     F __TEXT,__text _core::ptr::drop_in_place<std::thread::Thread>
+00000001000020e4 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::string::String>
+000000010000210c l     F __TEXT,__text _core::ptr::drop_in_place<std::io::error::Error>
+00000001000021b8 l     F __TEXT,__text _core::ptr::drop_in_place<object::read::ObjectMap>
+0000000100002210 l     F __TEXT,__text _core::ptr::drop_in_place<std::thread::PanicGuard>
+0000000100002254 l     F __TEXT,__text _core::ptr::drop_in_place<std::io::stdio::StdinLock>
+00000001000022a8 l     F __TEXT,__text _core::ptr::drop_in_place<gimli::read::abbrev::Abbreviations>
+000000010000232c l     F __TEXT,__text _core::ptr::drop_in_place<std::sys::sync::once::queue::Waiter>
+000000010000236c l     F __TEXT,__text _core::ptr::drop_in_place<std::sys::sync::rwlock::queue::Node>
+00000001000023ac l     F __TEXT,__text _core::ptr::drop_in_place<gimli::read::abbrev::AbbreviationsCache>
+0000000100002478 l     F __TEXT,__text _core::ptr::drop_in_place<std::sys::sync::rwlock::queue::PanicGuard>
+00000001000024bc l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<alloc::string::String>>
+000000010000253c l     F __TEXT,__text _core::ptr::drop_in_place<std::backtrace_rs::symbolize::gimli::Mapping>
+00000001000025ac l     F __TEXT,__text _core::ptr::drop_in_place<std::backtrace_rs::backtrace::libunwind::Bomb>
+00000001000025ec l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<addr2line::LineSequence>>
+0000000100002670 l     F __TEXT,__text _core::ptr::drop_in_place<core::option::Option<std::thread::Thread>>
+00000001000026b0 l     F __TEXT,__text _core::ptr::drop_in_place<std::backtrace_rs::symbolize::gimli::stash::Stash>
+0000000100002768 l     F __TEXT,__text _core::ptr::drop_in_place<std::backtrace_rs::symbolize::gimli::macho::Object>
+00000001000028c4 l     F __TEXT,__text _core::ptr::drop_in_place<std::sync::rwlock::RwLockReadGuard<()>>
+000000010000292c l     F __TEXT,__text _core::ptr::drop_in_place<core::option::Option<object::read::ObjectMap>>
+0000000100002990 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::boxed::Box<[alloc::string::String]>>
+0000000100002a00 l     F __TEXT,__text _core::ptr::drop_in_place<std::panicking::begin_panic_handler::FormatStringPayload>
+0000000100002a34 l     F __TEXT,__text _core::ptr::drop_in_place<core::result::Result<(),std::io::error::Error>>
+0000000100002a54 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::sync::ArcInner<gimli::read::abbrev::Abbreviations>>
+0000000100002ad8 l     F __TEXT,__text _core::ptr::drop_in_place<core::result::Result<addr2line::Lines,gimli::read::Error>>
+0000000100002bbc l     F __TEXT,__text _core::ptr::drop_in_place<alloc::sync::ArcInner<std::sys::pal::unix::fs::InnerReadDir>>
+0000000100002c1c l     F __TEXT,__text _core::ptr::drop_in_place<alloc::vec::Vec<std::backtrace_rs::symbolize::gimli::Library>>
+0000000100002cb4 l     F __TEXT,__text _core::ptr::drop_in_place<std::io::Write::write_fmt::Adapter<alloc::vec::Vec<u8>>>
+0000000100002cd4 l     F __TEXT,__text _core::ptr::drop_in_place<std::io::buffered::bufwriter::BufWriter<W>::flush_buf::BufGuard>
+0000000100002d34 l     F __TEXT,__text _core::ptr::drop_in_place<alloc::boxed::Box<std::sys::sync::mutex::pthread::AllocatedMutex>>
+0000000100002d60 l     F __TEXT,__text _core::ptr::drop_in_place<core::option::IntoIter<std::backtrace_rs::symbolize::gimli::Library>>
+0000000100002dbc l     F __TEXT,__text _core::ptr::drop_in_place<std::io::buffered::linewriter::LineWriter<std::io::stdio::StdoutRaw>>
+0000000100002eac l     F __TEXT,__text _core::panic::PanicPayload::as_str
+0000000100002ec0 l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+0000000100002f8c l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+00000001000030c0 l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+000000010000318c l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+000000010000325c l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+0000000100003328 l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+00000001000033f8 l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+00000001000034c8 l     F __TEXT,__text _core::slice::sort::shared::pivot::median3_rec
+00000001000035e4 l     F __TEXT,__text _core::slice::sort::shared::smallsort::sort4_stable
+0000000100003764 l     F __TEXT,__text _core::slice::sort::shared::smallsort::sort4_stable
+0000000100003918 l     F __TEXT,__text _core::slice::sort::shared::smallsort::sort8_stable
+0000000100003bd0 l     F __TEXT,__text _core::slice::sort::shared::smallsort::small_sort_general
+0000000100004060 l     F __TEXT,__text _core::slice::sort::shared::smallsort::small_sort_general
+0000000100004440 l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+000000010000453c l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+00000001000045cc l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+0000000100004678 l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+0000000100004734 l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+00000001000047e8 l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+0000000100004890 l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+0000000100004940 l     F __TEXT,__text _core::slice::sort::shared::smallsort::insertion_sort_shift_left
+0000000100004a0c l     F __TEXT,__text _core::slice::sort::stable::driftsort_main
+0000000100004b48 l     F __TEXT,__text _core::slice::sort::stable::driftsort_main
+0000000100004c84 l     F __TEXT,__text _core::slice::sort::stable::driftsort_main
+0000000100004dd8 l     F __TEXT,__text _core::slice::sort::stable::driftsort_main
+0000000100004f14 l     F __TEXT,__text _core::slice::sort::stable::driftsort_main
+0000000100005068 l     F __TEXT,__text _core::slice::sort::stable::driftsort_main
+00000001000051a4 l     F __TEXT,__text _core::slice::sort::stable::drift::sort
+0000000100005880 l     F __TEXT,__text _core::slice::sort::stable::drift::sort
+0000000100005e30 l     F __TEXT,__text _core::slice::sort::stable::drift::sort
+00000001000063d8 l     F __TEXT,__text _core::slice::sort::stable::drift::sort
+00000001000068b4 l     F __TEXT,__text _core::slice::sort::stable::drift::sort
+0000000100006df0 l     F __TEXT,__text _core::slice::sort::stable::drift::sort
+0000000100007408 l     F __TEXT,__text _core::slice::sort::stable::quicksort::quicksort
+0000000100007ac4 l     F __TEXT,__text _core::slice::sort::stable::quicksort::quicksort
+00000001000082e0 l     F __TEXT,__text _core::slice::sort::stable::quicksort::quicksort
+0000000100008ad0 l     F __TEXT,__text _core::slice::sort::stable::quicksort::quicksort
+0000000100009200 l     F __TEXT,__text _core::slice::sort::stable::quicksort::quicksort
+00000001000098e4 l     F __TEXT,__text _core::slice::sort::stable::quicksort::quicksort
+000000010000a0f0 l     F __TEXT,__text _core::slice::sort::unstable::ipnsort
+000000010000a378 l     F __TEXT,__text _core::slice::sort::unstable::ipnsort
+000000010000a55c l     F __TEXT,__text _core::slice::sort::unstable::heapsort::heapsort
+000000010000a668 l     F __TEXT,__text _core::slice::sort::unstable::heapsort::heapsort
+000000010000a7c8 l     F __TEXT,__text _core::slice::sort::unstable::quicksort::quicksort
+000000010000ad7c l     F __TEXT,__text _core::slice::sort::unstable::quicksort::quicksort
+000000010000b1bc l     F __TEXT,__text _<*mut T as core::fmt::Debug>::fmt
+000000010000b1d0 l     F __TEXT,__text _<&mut T as core::fmt::Display>::fmt
+000000010000b1ec l     F __TEXT,__text _<&str as core::str::pattern::Pattern>::is_contained_in
+000000010000b5a8 l     F __TEXT,__text _<alloc::string::String as core::fmt::Debug>::fmt
+000000010000b5c4 l     F __TEXT,__text _<alloc::string::String as core::fmt::Write>::write_char
+000000010000b710 l     F __TEXT,__text _<alloc::string::String as core::fmt::Write>::write_str
+000000010000b790 l     F __TEXT,__text _alloc::collections::btree::map::IntoIter<K,V,A>::dying_next
+000000010000b9b4 l     F __TEXT,__text _alloc::collections::btree::map::IntoIter<K,V,A>::dying_next
+000000010000bbd8 l     F __TEXT,__text _alloc::sync::Arc<T,A>::drop_slow
+000000010000bca8 l     F __TEXT,__text _alloc::sync::Arc<T,A>::drop_slow
+000000010000bd20 l     F __TEXT,__text _alloc::sync::Arc<T,A>::drop_slow
+000000010000bde0 l     F __TEXT,__text _alloc::sync::Arc<T,A>::drop_slow
+000000010000be80 l     F __TEXT,__text _alloc::sync::Arc<T,A>::drop_slow
+000000010000bec4 l     F __TEXT,__text _alloc::sync::Arc<T,A>::drop_slow
+000000010000bfc4 l     F __TEXT,__text _alloc::raw_vec::finish_grow
+000000010000c04c l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c110 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c1f4 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c2d4 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c3b8 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c47c l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c544 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c628 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c6ec l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c7b4 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c898 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000c95c l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000ca20 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000cb04 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000cbc8 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000cc8c l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000cd70 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000ce38 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000cee8 l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000cfcc l     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+000000010000d0ac l     F __TEXT,__text _gimli::read::line::parse_file_v5
+000000010000d324 l     F __TEXT,__text _gimli::read::line::FileEntryFormat::parse
+000000010000d67c l     F __TEXT,__text _gimli::read::line::parse_attribute
+000000010000dee4 l     F __TEXT,__text _gimli::read::line::parse_directory_v5
+000000010000dfcc l     F __TEXT,__text _gimli::read::line::FileEntry<R,Offset>::parse
+000000010000e1dc l     F __TEXT,__text _gimli::read::unit::parse_attribute
+000000010000f144 l     F __TEXT,__text _gimli::read::unit::skip_attributes
+000000010000f664 l     F __TEXT,__text _gimli::read::unit::Attribute<R>::value
+000000010000fc40 l     F __TEXT,__text _gimli::read::unit::EntriesCursor<R>::next_entry
+000000010000fef4 l     F __TEXT,__text _gimli::read::unit::AttributeValue<R,Offset>::udata_value
+000000010000ff84 l     F __TEXT,__text _gimli::read::unit::DebugInfoUnitHeadersIter<R>::next
+0000000100010458 l     F __TEXT,__text _gimli::read::dwarf::Unit<R>::new
+0000000100012158 l     F __TEXT,__text _gimli::read::dwarf::Dwarf<R>::attr_string
+0000000100012340 l     F __TEXT,__text _gimli::read::index::UnitIndex<R>::parse
+0000000100012a20 l     F __TEXT,__text _gimli::read::reader::Reader::read_offset
+0000000100012adc l     F __TEXT,__text _gimli::read::reader::Reader::read_sleb128
+0000000100012cf8 l     F __TEXT,__text _gimli::read::reader::Reader::read_uleb128
+0000000100012da8 l     F __TEXT,__text _gimli::read::reader::Reader::read_sized_offset
+0000000100012e94 l     F __TEXT,__text _gimli::read::aranges::ArangeHeader<R,Offset>::parse
+0000000100013130 l     F __TEXT,__text _gimli::read::rnglists::RngListIter<R>::next
+0000000100013d6c l     F __TEXT,__text _<alloc::string::String as core::fmt::Display>::fmt
+0000000100013d88 l     F __TEXT,__text _object::read::archive::ArchiveMember::parse
+000000010001419c l     F __TEXT,__text _object::read::archive::parse_bsd_extended_name
+00000001000143ec l     F __TEXT,__text _<gimli::read::unit::AttributeValue<R,Offset> as core::clone::Clone>::clone
+0000000100014454 l     F __TEXT,__text _<gimli::read::line::LineProgramHeader<R,Offset> as core::clone::Clone>::clone
+00000001000148bc l     F __TEXT,__text _addr2line::render_file
+0000000100014d7c l     F __TEXT,__text _addr2line::Context<R>::find_unit
+0000000100014ee4 l     F __TEXT,__text _addr2line::ResUnit<R>::find_function_or_location
+0000000100015298 l     F __TEXT,__text _addr2line::ResUnit<R>::find_function_or_location::{{closure}}
+00000001000168dc l     F __TEXT,__text _addr2line::FrameIter<R>::next
+0000000100016bd8 l     F __TEXT,__text _addr2line::LoopingLookup<T,L,F>::new_lookup
+0000000100016fdc l     F __TEXT,__text _addr2line::Lines::parse
+00000001000183e4 l     F __TEXT,__text _addr2line::function::name_entry
+000000010001874c l     F __TEXT,__text _addr2line::function::Function<R>::parse_children
+00000001000197d0 l     F __TEXT,__text _addr2line::function::name_attr
+000000010001a300 l     F __TEXT,__text _std::thread::Thread::new_inner
+000000010001aa00 l     F __TEXT,__text _std::io::buffered::bufwriter::BufWriter<W>::flush_buf
+000000010001b66c l     F __TEXT,__text _std::io::stdio::print_to_buffer_if_capture_used
+000000010001b95c l     F __TEXT,__text _std::io::Write::write_fmt
+000000010001ba80 l     F __TEXT,__text _std::io::Write::write_fmt
+000000010001bba4 l     F __TEXT,__text _<std::io::Write::write_fmt::Adapter<T> as core::fmt::Write>::write_str
+000000010001bbf4 l     F __TEXT,__text _<std::io::Write::write_fmt::Adapter<T> as core::fmt::Write>::write_str
+000000010001bcc8 l     F __TEXT,__text _<std::io::Write::write_fmt::Adapter<T> as core::fmt::Write>::write_str
+000000010001be54 l     F __TEXT,__text _std::path::Components::len_before_body
+000000010001c50c l     F __TEXT,__text _std::path::Components::parse_next_component_back
+000000010001d084 l     F __TEXT,__text _std::sync::once::Once::call_once::{{closure}}
+000000010001d2e0 l     F __TEXT,__text _std::sync::once::Once::call_once_force::{{closure}}
+000000010001d360 l     F __TEXT,__text _std::sync::once::Once::call_once_force::{{closure}}
+000000010001d3c0 l     F __TEXT,__text _std::sys::personality::dwarf::eh::read_encoded_offset
+000000010001d580 l     F __TEXT,__text _std::sys::backtrace::BacktraceLock::print
+000000010001d7fc l     F __TEXT,__text _std::sys::backtrace::_print_fmt::{{closure}}
+000000010001d82c l     F __TEXT,__text _std::sys::backtrace::_print_fmt::{{closure}}
+000000010001d960 l     F __TEXT,__text _std::sys::backtrace::_print_fmt::{{closure}}::{{closure}}
+000000010001dbcc l     F __TEXT,__text _std::sys::backtrace::__rust_end_short_backtrace
+000000010001dbd8 l     F __TEXT,__text _std::sys::backtrace::output_filename
+000000010001dcd4 l     F __TEXT,__text _std::alloc::default_alloc_error_hook
+000000010001e3c8 l     F __TEXT,__text _std::panicking::default_hook::{{closure}}
+000000010001e830 l     F __TEXT,__text _<std::panicking::begin_panic_handler::StaticStrPayload as core::panic::PanicPayload>::get
+000000010001e848 l     F __TEXT,__text _<std::panicking::begin_panic_handler::StaticStrPayload as core::panic::PanicPayload>::as_str
+000000010001e87c l     F __TEXT,__text _std::panicking::begin_panic_handler::{{closure}}
+000000010001f068 l     F __TEXT,__text _std::backtrace_rs::print::BacktraceFrameFmt::print_raw_with_column
+000000010001f538 l     F __TEXT,__text _<std::io::error::ErrorKind as core::fmt::Debug>::fmt
+000000010001f56c l     F __TEXT,__text _<std::path::Component as core::cmp::PartialEq>::eq
+000000010001f8a8 l     F __TEXT,__text _std::sys::pal::unix::fs::File::open_c
+000000010001fbf4 l     F __TEXT,__text _std::sys::pal::unix::os::env_read_lock
+000000010001ff18 l     F __TEXT,__text _std::sys::pal::unix::os::getenv::{{closure}}
+0000000100020068 l     F __TEXT,__text _std::sys::pal::unix::stack_overflow::imp::signal_handler
+00000001000201dc l     F __TEXT,__text _std::sys::pal::unix::stack_overflow::imp::make_handler
+00000001000203bc l     F __TEXT,__text _std::sys::pal::unix::decode_error_kind
+00000001000203f8 l     F __TEXT,__text _std::sys::personality::gcc::find_eh_action::{{closure}}
+0000000100020410 l     F __TEXT,__text _std::sys::personality::gcc::find_eh_action::{{closure}}
+00000001000209f8 l     F __TEXT,__text _std::sys::sync::once::queue::wait
+0000000100020c44 l     F __TEXT,__text _std::sys::sync::rwlock::queue::read_lock
+0000000100020c70 l     F __TEXT,__text _std::sys::sync::rwlock::queue::RwLock::unlock_queue
+0000000100020eac l     F __TEXT,__text _std::sys::thread_local::native::lazy::destroy
+000000010002103c l     F __TEXT,__text _std::sys::thread_local::guard::apple::enable::run_dtors
+00000001000211d8 l     F __TEXT,__text _std::backtrace_rs::backtrace::libunwind::trace::trace_fn
+0000000100021220 l     F __TEXT,__text _std::backtrace_rs::symbolize::gimli::Context::new
+00000001000233cc l     F __TEXT,__text _std::backtrace_rs::symbolize::gimli::Context::find_frames
+0000000100023774 l     F __TEXT,__text _std::backtrace_rs::symbolize::gimli::mmap
+0000000100025f4c l     F __TEXT,__text _std::backtrace_rs::symbolize::gimli::macho::find_header
+0000000100026120 l     F __TEXT,__text _std::backtrace_rs::symbolize::gimli::macho::Object::parse
+0000000100026d04 l     F __TEXT,__text _std::backtrace_rs::symbolize::gimli::macho::Object::section
+00000001000270a4 l     F __TEXT,__text _OUTLINED_FUNCTION_0
+00000001000270c8 l     F __TEXT,__text _OUTLINED_FUNCTION_1
+00000001000270d0 l     F __TEXT,__text _OUTLINED_FUNCTION_2
+00000001000270d8 l     F __TEXT,__text _OUTLINED_FUNCTION_3
+00000001000270e0 l     F __TEXT,__text _OUTLINED_FUNCTION_4
+00000001000270e8 l     F __TEXT,__text _OUTLINED_FUNCTION_5
+00000001000270f4 l     F __TEXT,__text _core::ptr::drop_in_place<panic_unwind::imp::Exception>
+000000010002716c l     F __TEXT,__text _core::ptr::drop_in_place<alloc::boxed::Box<panic_unwind::imp::Exception>>
+0000000100027308 l     F __TEXT,__text _panic_unwind::imp::panic::exception_cleanup
+00000001000279ac l     F __TEXT,__text _core::ptr::drop_in_place<alloc::string::String>
+0000000100027cdc l     F __TEXT,__text _addr2line::has_windows_root
+0000000100027db8 l     F __TEXT,__text _core::ptr::drop_in_place<gimli::read::abbrev::Attributes>
+00000001000293e4 l     F __TEXT,__text _<core::iter::sources::from_fn::FromFn<F> as core::iter::traits::iterator::Iterator>::next
+0000000100029760 l     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+0000000100029798 l     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+00000001000297c8 l     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+00000001000297e4 l     F __TEXT,__text _<&T as core::fmt::Display>::fmt
+0000000100029830 l     F __TEXT,__text _<() as core::fmt::Debug>::fmt
+0000000100029850 l     F __TEXT,__text _core::fmt::Write::write_char
+0000000100029940 l     F __TEXT,__text _core::fmt::Write::write_fmt
+000000010002995c l     F __TEXT,__text _core::char::methods::<impl char>::escape_debug_ext
+0000000100029b9c l     F __TEXT,__text _<&mut T as core::fmt::Debug>::fmt
+0000000100029c0c l     F __TEXT,__text _<core::fmt::Error as core::fmt::Debug>::fmt
+0000000100029c2c l     F __TEXT,__text _<core::num::error::ParseIntError as core::fmt::Debug>::fmt
+0000000100029c78 l     F __TEXT,__text _<core::str::pattern::StrSearcher as core::str::pattern::Searcher>::next
+0000000100029fcc l     F __TEXT,__text _<core::str::iter::Chars as core::iter::traits::iterator::Iterator>::count
+0000000100029ff0 l     F __TEXT,__text _<core::str::pattern::CharSearcher as core::str::pattern::Searcher>::next_match
+000000010002b2b8 l     F __TEXT,__text _rustc_demangle::v0::HexNibbles::try_parse_uint
+000000010002b404 l     F __TEXT,__text _rustc_demangle::v0::Parser::hex_nibbles
+000000010002b4bc l     F __TEXT,__text _rustc_demangle::v0::Parser::integer_62
+000000010002b5c8 l     F __TEXT,__text _rustc_demangle::v0::Parser::disambiguator
+000000010002b6fc l     F __TEXT,__text _rustc_demangle::v0::Parser::namespace
+000000010002b764 l     F __TEXT,__text _rustc_demangle::v0::Parser::ident
+000000010002b9a0 l     F __TEXT,__text _rustc_demangle::v0::Printer::skipping_printing
+000000010002ba00 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_backref
+000000010002bbfc l     F __TEXT,__text _rustc_demangle::v0::Printer::print_backref
+000000010002bdfc l     F __TEXT,__text _rustc_demangle::v0::Printer::print_backref
+000000010002bffc l     F __TEXT,__text _rustc_demangle::v0::Printer::print_quoted_escaped_chars
+000000010002c13c l     F __TEXT,__text _rustc_demangle::v0::Printer::print_lifetime_from_index
+000000010002c254 l     F __TEXT,__text _rustc_demangle::v0::Printer::in_binder
+000000010002c594 l     F __TEXT,__text _rustc_demangle::v0::Printer::in_binder
+000000010002c814 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_sep_list
+000000010002c8b8 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_sep_list
+000000010002c964 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_sep_list
+000000010002ca14 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_sep_list
+000000010002ccc8 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_sep_list
+000000010002cd68 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_path
+000000010002d424 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_generic_arg
+000000010002d5a8 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_type
+000000010002da78 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_type::{{closure}}
+000000010002defc l     F __TEXT,__text _rustc_demangle::v0::Printer::print_path_maybe_open_generics
+000000010002e1b8 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_dyn_trait
+000000010002e420 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_const
+000000010002ea3c l     F __TEXT,__text _rustc_demangle::v0::Printer::print_const_uint
+000000010002ec30 l     F __TEXT,__text _rustc_demangle::v0::Printer::print_const_str_literal
+000000010002fa18 l     F __TEXT,__text _<rustc_demangle::SizeLimitedFmtAdapter<F> as core::fmt::Write>::write_str
+000000010002fbd0 l     F __TEXT,__text _<rustc_demangle::SizeLimitExhausted as core::fmt::Debug>::fmt
+000000010002fbf0 l     F __TEXT,__text _<core::alloc::layout::LayoutError as core::fmt::Debug>::fmt
+000000010002fc10 l     F __TEXT,__text _alloc::raw_vec::capacity_overflow
+000000010002fc44 l     F __TEXT,__text _alloc::raw_vec::finish_grow
+00000001000302a0 l     F __TEXT,__text _<core::ops::range::Range<Idx> as core::fmt::Debug>::fmt
+0000000100030320 l     F __TEXT,__text _core::char::methods::<impl char>::escape_debug_ext
+0000000100030f3c l     F __TEXT,__text _core::fmt::Write::write_fmt
+0000000100031548 l     F __TEXT,__text _core::fmt::Formatter::pad_integral::write_prefix
+00000001000344a4 l     F __TEXT,__text _core::fmt::num::<impl core::fmt::Debug for usize>::fmt
+0000000100034c18 l     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+0000000100034c34 l     F __TEXT,__text _<&T as core::fmt::Display>::fmt
+0000000100034ed8 l     F __TEXT,__text _core::cell::once::OnceCell<T>::try_init
+0000000100034fec l     F __TEXT,__text _core::panicking::assert_failed
+000000010003502c l     F __TEXT,__text _alloc::raw_vec::RawVecInner<A>::reserve::do_reserve_and_handle
+0000000100035128 l     F __TEXT,__text _std::thread::current::init_current
+00000001000352a0 l     F __TEXT,__text _std::thread::ThreadId::new::exhausted
+00000001000352d8 l     F __TEXT,__text _std::io::buffered::bufwriter::BufWriter<W>::write_all_cold
+0000000100035404 l     F __TEXT,__text _std::sync::once_lock::OnceLock<T>::initialize
+000000010003546c l     F __TEXT,__text _std::sync::once_lock::OnceLock<T>::initialize
+00000001000354d0 l     F __TEXT,__text _std::sys::pal::common::small_c_string::run_with_cstr_allocating
+000000010003557c l     F __TEXT,__text _std::sys::pal::common::small_c_string::run_with_cstr_allocating
+0000000100035640 l     F __TEXT,__text _std::sys::pal::common::small_c_string::run_with_cstr_allocating
+00000001000356dc l     F __TEXT,__text _std::sys::sync::once_box::OnceBox<T>::initialize
+0000000100035a34 l     F __TEXT,__text _std::sys::thread_local::native::lazy::Storage<T,D>::initialize
+0000000100035b50 l     F __TEXT,__text _alloc::raw_vec::RawVecInner<A>::reserve::do_reserve_and_handle
+0000000100038874 l     O __TEXT,__const _panic_unwind::imp::CANARY
+0000000100039dd0 l     O __TEXT,__const _core::unicode::unicode_data::grapheme_extend::SHORT_OFFSET_RUNS
+0000000100039e58 l     O __TEXT,__const _core::unicode::unicode_data::grapheme_extend::OFFSETS
+000000010003a150 l     O __TEXT,__gcc_except_tab GCC_except_table48
+000000010003a160 l     O __TEXT,__gcc_except_tab GCC_except_table49
+000000010003a174 l     O __TEXT,__gcc_except_tab GCC_except_table59
+000000010003a184 l     O __TEXT,__gcc_except_tab GCC_except_table75
+000000010003a1a0 l     O __TEXT,__gcc_except_tab GCC_except_table82
+000000010003a1d0 l     O __TEXT,__gcc_except_tab GCC_except_table83
+000000010003a1f0 l     O __TEXT,__gcc_except_tab GCC_except_table84
+000000010003a1fc l     O __TEXT,__gcc_except_tab GCC_except_table89
+000000010003a218 l     O __TEXT,__gcc_except_tab GCC_except_table91
+000000010003a224 l     O __TEXT,__gcc_except_tab GCC_except_table92
+000000010003a240 l     O __TEXT,__gcc_except_tab GCC_except_table93
+000000010003a25c l     O __TEXT,__gcc_except_tab GCC_except_table94
+000000010003a278 l     O __TEXT,__gcc_except_tab GCC_except_table96
+000000010003a294 l     O __TEXT,__gcc_except_tab GCC_except_table97
+000000010003a2b0 l     O __TEXT,__gcc_except_tab GCC_except_table98
+000000010003a2cc l     O __TEXT,__gcc_except_tab GCC_except_table113
+000000010003a2f0 l     O __TEXT,__gcc_except_tab GCC_except_table119
+000000010003a2fc l     O __TEXT,__gcc_except_tab GCC_except_table139
+000000010003a320 l     O __TEXT,__gcc_except_tab GCC_except_table142
+000000010003a33c l     O __TEXT,__gcc_except_tab GCC_except_table150
+000000010003a35c l     O __TEXT,__gcc_except_tab GCC_except_table167
+000000010003a368 l     O __TEXT,__gcc_except_tab GCC_except_table176
+000000010003a37c l     O __TEXT,__gcc_except_tab GCC_except_table177
+000000010003a390 l     O __TEXT,__gcc_except_tab GCC_except_table197
+000000010003a3a0 l     O __TEXT,__gcc_except_tab GCC_except_table198
+000000010003a3b0 l     O __TEXT,__gcc_except_tab GCC_except_table207
+000000010003a3c4 l     O __TEXT,__gcc_except_tab GCC_except_table208
+000000010003a3d8 l     O __TEXT,__gcc_except_tab GCC_except_table209
+000000010003a3ec l     O __TEXT,__gcc_except_tab GCC_except_table210
+000000010003a400 l     O __TEXT,__gcc_except_tab GCC_except_table211
+000000010003a414 l     O __TEXT,__gcc_except_tab GCC_except_table212
+000000010003a428 l     O __TEXT,__gcc_except_tab GCC_except_table219
+000000010003a43c l     O __TEXT,__gcc_except_tab GCC_except_table220
+000000010003a450 l     O __TEXT,__gcc_except_tab GCC_except_table221
+000000010003a464 l     O __TEXT,__gcc_except_tab GCC_except_table222
+000000010003a478 l     O __TEXT,__gcc_except_tab GCC_except_table223
+000000010003a48c l     O __TEXT,__gcc_except_tab GCC_except_table224
+000000010003a4a0 l     O __TEXT,__gcc_except_tab GCC_except_table243
+000000010003a4c4 l     O __TEXT,__gcc_except_tab GCC_except_table245
+000000010003a4e8 l     O __TEXT,__gcc_except_tab GCC_except_table255
+000000010003a508 l     O __TEXT,__gcc_except_tab GCC_except_table257
+000000010003a518 l     O __TEXT,__gcc_except_tab GCC_except_table261
+000000010003a528 l     O __TEXT,__gcc_except_tab GCC_except_table291
+000000010003a538 l     O __TEXT,__gcc_except_tab GCC_except_table301
+000000010003a5bc l     O __TEXT,__gcc_except_tab GCC_except_table330
+000000010003a5e8 l     O __TEXT,__gcc_except_tab GCC_except_table332
+000000010003a610 l     O __TEXT,__gcc_except_tab GCC_except_table335
+000000010003a670 l     O __TEXT,__gcc_except_tab GCC_except_table337
+000000010003a6a0 l     O __TEXT,__gcc_except_tab GCC_except_table338
+000000010003a6f4 l     O __TEXT,__gcc_except_tab GCC_except_table343
+000000010003a768 l     O __TEXT,__gcc_except_tab GCC_except_table362
+000000010003a784 l     O __TEXT,__gcc_except_tab GCC_except_table370
+000000010003a79c l     O __TEXT,__gcc_except_tab GCC_except_table387
+000000010003a7b4 l     O __TEXT,__gcc_except_tab GCC_except_table397
+000000010003a7cc l     O __TEXT,__gcc_except_tab GCC_except_table482
+000000010003a7f0 l     O __TEXT,__gcc_except_tab GCC_except_table500
+000000010003a808 l     O __TEXT,__gcc_except_tab GCC_except_table501
+000000010003a820 l     O __TEXT,__gcc_except_tab GCC_except_table566
+000000010003a84c l     O __TEXT,__gcc_except_tab GCC_except_table570
+000000010003a870 l     O __TEXT,__gcc_except_tab GCC_except_table594
+000000010003a884 l     O __TEXT,__gcc_except_tab GCC_except_table595
+000000010003a8ac l     O __TEXT,__gcc_except_tab GCC_except_table597
+000000010003a8d0 l     O __TEXT,__gcc_except_tab GCC_except_table612
+000000010003a8f8 l     O __TEXT,__gcc_except_tab GCC_except_table613
+000000010003a920 l     O __TEXT,__gcc_except_tab GCC_except_table615
+000000010003a930 l     O __TEXT,__gcc_except_tab GCC_except_table616
+000000010003a940 l     O __TEXT,__gcc_except_tab GCC_except_table753
+000000010003a960 l     O __TEXT,__gcc_except_tab GCC_except_table821
+000000010003a990 l     O __TEXT,__gcc_except_tab GCC_except_table860
+000000010003a9a4 l     O __TEXT,__gcc_except_tab GCC_except_table870
+000000010003a9c0 l     O __TEXT,__gcc_except_tab GCC_except_table872
+000000010003a9d4 l     O __TEXT,__gcc_except_tab GCC_except_table873
+000000010003a9f4 l     O __TEXT,__gcc_except_tab GCC_except_table893
+000000010003aa0c l     O __TEXT,__gcc_except_tab GCC_except_table898
+000000010003aa1c l     O __TEXT,__gcc_except_tab GCC_except_table899
+000000010003aa2c l     O __TEXT,__gcc_except_tab GCC_except_table902
+000000010003aa60 l     O __TEXT,__gcc_except_tab GCC_except_table903
+000000010003aa74 l     O __TEXT,__gcc_except_tab GCC_except_table911
+000000010003aa88 l     O __TEXT,__gcc_except_tab GCC_except_table912
+000000010003aa98 l     O __TEXT,__gcc_except_tab GCC_except_table918
+000000010003aaac l     O __TEXT,__gcc_except_tab GCC_except_table920
+000000010003aaec l     O __TEXT,__gcc_except_tab GCC_except_table963
+000000010003ab10 l     O __TEXT,__gcc_except_tab GCC_except_table974
+000000010003ab34 l     O __TEXT,__gcc_except_tab GCC_except_table1024
+000000010003ab64 l     O __TEXT,__gcc_except_tab GCC_except_table1025
+000000010003ab88 l     O __TEXT,__gcc_except_tab GCC_except_table1054
+000000010003aba4 l     O __TEXT,__gcc_except_tab GCC_except_table1055
+000000010003abcc l     O __TEXT,__gcc_except_tab GCC_except_table1086
+000000010003abe0 l     O __TEXT,__gcc_except_tab GCC_except_table1101
+000000010003ac20 l     O __TEXT,__gcc_except_tab GCC_except_table1102
+000000010003ac3c l     O __TEXT,__gcc_except_tab GCC_except_table1106
+000000010003ac64 l     O __TEXT,__gcc_except_tab GCC_except_table1107
+000000010003ac7c l     O __TEXT,__gcc_except_tab GCC_except_table1120
+000000010003ac90 l     O __TEXT,__gcc_except_tab GCC_except_table1122
+000000010003aca8 l     O __TEXT,__gcc_except_tab GCC_except_table1123
+000000010003acc4 l     O __TEXT,__gcc_except_tab GCC_except_table1144
+000000010003acd8 l     O __TEXT,__gcc_except_tab GCC_except_table1145
+000000010003ae48 l     O __TEXT,__gcc_except_tab GCC_except_table1146
+000000010003ae60 l     O __TEXT,__gcc_except_tab GCC_except_table1147
+000000010003ae74 l     O __TEXT,__gcc_except_tab GCC_except_table1148
+000000010003b04c l     O __TEXT,__gcc_except_tab GCC_except_table1152
+000000010003b0b4 l     O __TEXT,__gcc_except_tab GCC_except_table0
+000000010003b0c0 l     O __TEXT,__gcc_except_tab GCC_except_table1
+000000010003b0cc l     O __TEXT,__gcc_except_tab GCC_except_table3
+000000010003b0ec l     O __TEXT,__gcc_except_tab GCC_except_table4
+000000010003b0f4 l     O __TEXT,__gcc_except_tab GCC_except_table0
+000000010003b110 l     O __TEXT,__gcc_except_tab GCC_except_table7
+000000010003b128 l     O __TEXT,__gcc_except_tab GCC_except_table13
+000000010003b13c l     O __TEXT,__gcc_except_tab GCC_except_table14
+000000010003b14c l     O __TEXT,__gcc_except_tab GCC_except_table18
+000000010003b15c l     O __TEXT,__gcc_except_tab GCC_except_table27
+000000010003b170 l     O __TEXT,__gcc_except_tab GCC_except_table30
+000000010003b184 l     O __TEXT,__gcc_except_tab GCC_except_table32
+000000010003b1b0 l     O __TEXT,__gcc_except_tab GCC_except_table33
+000000010003b1c0 l     O __TEXT,__gcc_except_tab GCC_except_table34
+000000010003b1e0 l     O __TEXT,__gcc_except_tab GCC_except_table37
+000000010003b1f0 l     O __TEXT,__gcc_except_tab GCC_except_table61
+000000010003b200 l     O __TEXT,__gcc_except_tab GCC_except_table62
+000000010003b20c l     O __TEXT,__gcc_except_tab GCC_except_table63
+000000010003b224 l     O __TEXT,__gcc_except_tab GCC_except_table31
+000000010003b23c l     O __TEXT,__gcc_except_tab GCC_except_table34
+000000010003b254 l     O __TEXT,__gcc_except_tab GCC_except_table56
+000000010003b27c l     O __TEXT,__gcc_except_tab GCC_except_table123
+0000000100048200 l     O __DATA,__data __dyld_private
+0000000100048208 l     O __DATA,__data _std::panicking::default_hook::{{closure}}::FIRST_PANIC
+0000000100048210 l     O __DATA,__data _std::backtrace_rs::symbolize::gimli::Cache::with_global::MAPPINGS_CACHE
+0000000100048258 l     O __DATA,__thread_vars _std::sys::thread_local::destructors::list::DTORS
+0000000100048270 l     O __DATA,__thread_vars _std::sys::thread_local::guard::apple::enable::REGISTERED.0
+0000000100048288 l     O __DATA,__thread_vars _std::panicking::panic_count::LOCAL_PANIC_COUNT::{{constant}}::{{closure}}::VAL.0
+00000001000482a0 l     O __DATA,__thread_vars _std::panicking::panic_count::LOCAL_PANIC_COUNT::{{constant}}::{{closure}}::VAL.1
+00000001000482b8 l     O __DATA,__thread_vars _std::sys::pal::unix::stack_overflow::imp::GUARD::{{constant}}::{{closure}}::VAL.0
+00000001000482d0 l     O __DATA,__thread_vars _std::sys::pal::unix::stack_overflow::imp::GUARD::{{constant}}::{{closure}}::VAL.1
+00000001000482e8 l     O __DATA,__thread_vars _std::io::stdio::OUTPUT_CAPTURE::{{constant}}::{{closure}}::VAL
+0000000100048318 l     O __DATA,__thread_data __ZN3std3sys12thread_local11destructors4list5DTORS17ha0b1dd026606eb14E$tlv$init
+0000000100048338 l     O __DATA,__thread_bss __ZN3std6thread7current2id2ID17h388243e9e620d895E$tlv$init
+0000000100048340 l     O __DATA,__thread_bss _std::sys::thread_local::guard::apple::enable::REGISTERED.0$tlv$init
+0000000100048348 l     O __DATA,__thread_bss _std::panicking::panic_count::LOCAL_PANIC_COUNT::{{constant}}::{{closure}}::VAL.0$tlv$init
+0000000100048350 l     O __DATA,__thread_bss _std::panicking::panic_count::LOCAL_PANIC_COUNT::{{constant}}::{{closure}}::VAL.1$tlv$init
+0000000100048358 l     O __DATA,__thread_bss _std::sys::pal::unix::stack_overflow::imp::GUARD::{{constant}}::{{closure}}::VAL.0$tlv$init
+0000000100048360 l     O __DATA,__thread_bss _std::sys::pal::unix::stack_overflow::imp::GUARD::{{constant}}::{{closure}}::VAL.1$tlv$init
+0000000100048368 l     O __DATA,__thread_bss __ZN3std2io5stdio14OUTPUT_CAPTURE29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$3VAL17h120e2e67e8305928E$tlv$init
+0000000100048378 l     O __DATA,__thread_bss __ZN3std6thread7current7CURRENT17h3a3602d2a13fa028E$tlv$init
+00000001000483b1 l     O __DATA,__bss _std::io::stdio::OUTPUT_CAPTURE_USED.0
+00000001000483b8 l     O __DATA,__bss _std::panic::SHOULD_CAPTURE
+00000001000483c0 l     O __DATA,__bss _std::sys::backtrace::lock::LOCK
+00000001000483d0 l     O __DATA,__bss _std::alloc::HOOK
+00000001000483d8 l     O __DATA,__bss _std::sys::pal::unix::os::ENV_LOCK
+00000001000483e8 l     O __DATA,__bss __MergedGlobals
+000000010001e6d4 g     F __TEXT,__text _<std::panicking::begin_panic_handler::FormatStringPayload as core::panic::PanicPayload>::get
+000000010001e5c4 g     F __TEXT,__text _<std::panicking::begin_panic_handler::FormatStringPayload as core::panic::PanicPayload>::take_box
+000000010002f9c4 g     F __TEXT,__text _rustc_demangle::try_demangle
+000000010002ef20 g     F __TEXT,__text _rustc_demangle::demangle
+00000001000238d4 g     F __TEXT,__text _std::backtrace_rs::symbolize::gimli::resolve
+000000010001ee84 g     F __TEXT,__text _std::backtrace_rs::symbolize::Symbol::name
+000000010001a7bc g     F __TEXT,__text _std::fs::OpenOptions::_open
+000000010001ac14 g     F __TEXT,__text _std::io::error::<impl core::fmt::Debug for std::io::error::repr_bitpacked::Repr>::fmt
+000000010001b578 g     F __TEXT,__text _std::io::stdio::try_set_output_capture
+000000010001b488 g     F __TEXT,__text _std::io::stdio::Stderr::lock
+000000010001b488 g     F __TEXT,__text _std::io::stdio::Stdout::lock
+000000010001b878 g     F __TEXT,__text _std::io::stdio::_print
+0000000100019984 g     F __TEXT,__text _std::rt::lang_start_internal
+000000010001a48c g     F __TEXT,__text _std::env::current_dir
+000000010001a65c g     F __TEXT,__text _std::env::_var_os
+0000000100020f00 g     F __TEXT,__text _std::sys::thread_local::destructors::list::register
+00000001000203ec g     F __TEXT,__text _std::sys::pal::unix::abort_internal
+000000010001fa50 g     F __TEXT,__text _std::sys::pal::unix::fs::readdir
+0000000100035830 g     F __TEXT,__text _std::sys::sync::once::queue::Once::call
+0000000100020830 g     F __TEXT,__text _std::sys::sync::mutex::pthread::AllocatedMutex::new
+0000000100035754 g     F __TEXT,__text _std::sys::sync::mutex::pthread::Mutex::lock::fail
+00000001000359e4 g     F __TEXT,__text _std::sys::sync::rwlock::queue::RwLock::unlock_contended
+0000000100035990 g     F __TEXT,__text _std::sys::sync::rwlock::queue::RwLock::read_unlock_contended
+000000010001d510 g     F __TEXT,__text _std::sys::backtrace::lock
+000000010001bfdc g     F __TEXT,__text _std::path::Components::as_path
+000000010001ccc0 g     F __TEXT,__text _std::path::Path::_strip_prefix
+000000010001cedc g     F __TEXT,__text _std::path::Path::_join
+0000000100021194 g     F __TEXT,__text _std::alloc::rust_oom
+000000010001bd48 g     F __TEXT,__text _std::panic::get_backtrace_style
+000000010001a214 g     F __TEXT,__text _std::thread::park
+000000010001a448 g     F __TEXT,__text _std::thread::Thread::name
+0000000100048240 g     O __DATA,__thread_vars _std::thread::current::id::ID
+0000000100048300 g     O __DATA,__thread_vars _std::thread::current::CURRENT
+000000010001a1b4 g     F __TEXT,__text _std::thread::current::current
+00000001000353f8 g     F __TEXT,__text _std::process::abort
+0000000100035728 g     F __TEXT,__text _std::panicking::panic_count::is_zero_slow_path
+00000001000483a8 g     O __DATA,__common _std::panicking::panic_count::GLOBAL_PANIC_COUNT
+000000010001e524 g     F __TEXT,__text _std::panicking::panic_count::increase
+000000010001e13c g     F __TEXT,__text _std::panicking::default_hook
+000000010001e940 g     F __TEXT,__text _std::panicking::payload_as_str
+000000010001e9f0 g     F __TEXT,__text _std::panicking::rust_panic_with_hook
+0000000100048388 g     O __DATA,__common _std::panicking::HOOK
+0000000100031c20 g     F __TEXT,__text _<str as core::fmt::Debug>::fmt
+0000000100031fb4 g     F __TEXT,__text _<char as core::fmt::Debug>::fmt
+0000000100027d88 g     F __TEXT,__text _<&T as core::fmt::Debug>::fmt
+0000000100031f94 g     F __TEXT,__text _<str as core::fmt::Display>::fmt
+0000000100032060 g     F __TEXT,__text _<char as core::fmt::Display>::fmt
+0000000100030580 g     F __TEXT,__text _core::ffi::c_str::CStr::from_bytes_with_nul
+0000000100032158 g     F __TEXT,__text _core::fmt::pointer_fmt_inner
+0000000100034698 g     F __TEXT,__text _core::fmt::num::imp::<impl core::fmt::Display for u8>::fmt
+0000000100034740 g     F __TEXT,__text _core::fmt::num::imp::<impl core::fmt::Display for i32>::fmt
+00000001000349a0 g     F __TEXT,__text _core::fmt::num::imp::<impl core::fmt::Display for u32>::fmt
+0000000100034adc g     F __TEXT,__text _core::fmt::num::imp::<impl core::fmt::Display for u64>::fmt
+0000000100034adc g     F __TEXT,__text _core::fmt::num::imp::<impl core::fmt::Display for usize>::fmt
+00000001000341a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for i8>::fmt
+00000001000341a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for u8>::fmt
+0000000100034224 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for i8>::fmt
+0000000100034224 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for u8>::fmt
+00000001000342a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for i32>::fmt
+00000001000343a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for i64>::fmt
+00000001000342a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for u32>::fmt
+00000001000343a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for u64>::fmt
+0000000100034324 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for i32>::fmt
+0000000100034424 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for i64>::fmt
+0000000100034324 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for u32>::fmt
+0000000100034424 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for u64>::fmt
+00000001000343a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for isize>::fmt
+00000001000343a4 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::LowerHex for usize>::fmt
+0000000100034424 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for isize>::fmt
+0000000100034424 g     F __TEXT,__text _core::fmt::num::<impl core::fmt::UpperHex for usize>::fmt
+0000000100030f70 g     F __TEXT,__text _core::fmt::write
+0000000100030b94 g     F __TEXT,__text _core::fmt::builders::DebugTuple::field
+0000000100030cf0 g     F __TEXT,__text _core::fmt::builders::DebugTuple::finish
+0000000100030950 g     F __TEXT,__text _core::fmt::builders::DebugStruct::field
+0000000100030b14 g     F __TEXT,__text _core::fmt::builders::DebugStruct::finish
+0000000100030da0 g     F __TEXT,__text _core::fmt::builders::DebugSet::entry
+0000000100030da0 g     F __TEXT,__text _core::fmt::builders::DebugList::entry
+0000000100030ef0 g     F __TEXT,__text _core::fmt::builders::DebugList::finish
+0000000100031bbc g     F __TEXT,__text _core::fmt::Formatter::debug_list
+0000000100031b6c g     F __TEXT,__text _core::fmt::Formatter::debug_tuple
+000000010003195c g     F __TEXT,__text _core::fmt::Formatter::debug_struct
+0000000100031170 g     F __TEXT,__text _core::fmt::Formatter::pad_integral
+0000000100031998 g     F __TEXT,__text _core::fmt::Formatter::debug_struct_field1_finish
+0000000100031a68 g     F __TEXT,__text _core::fmt::Formatter::debug_struct_field2_finish
+00000001000315c4 g     F __TEXT,__text _core::fmt::Formatter::pad
+0000000100031940 g     F __TEXT,__text _core::fmt::Formatter::write_str
+0000000100036054 g     F __TEXT,__text _core::str::slice_error_fail
+0000000100033b54 g     F __TEXT,__text _core::str::slice_error_fail_rt
+00000001000326a0 g     F __TEXT,__text _core::str::count::do_count_chars
+0000000100032dc4 g     F __TEXT,__text _core::str::count::char_count_general_case
+0000000100036020 g     F __TEXT,__text _core::str::traits::str_index_overflow_fail
+0000000100033074 g     F __TEXT,__text _core::str::pattern::StrSearcher::new
+000000010003245c g     F __TEXT,__text _core::str::converts::from_utf8
+0000000100035c30 g     F __TEXT,__text _core::cell::panic_already_borrowed
+0000000100035fc4 g     F __TEXT,__text _core::slice::sort::shared::smallsort::panic_on_ord_violation
+0000000100032424 g     F __TEXT,__text _core::slice::sort::stable::drift::sqrt_approx
+0000000100036014 g     F __TEXT,__text _core::slice::index::slice_index_order_fail
+0000000100034cf0 g     F __TEXT,__text _core::slice::index::slice_index_order_fail::do_panic::runtime
+0000000100036008 g     F __TEXT,__text _core::slice::index::slice_end_index_len_fail
+0000000100034ca0 g     F __TEXT,__text _core::slice::index::slice_end_index_len_fail::do_panic::runtime
+0000000100035ffc g     F __TEXT,__text _core::slice::index::slice_start_index_len_fail
+0000000100034c50 g     F __TEXT,__text _core::slice::index::slice_start_index_len_fail::do_panic::runtime
+000000010003221c g     F __TEXT,__text _core::slice::memchr::memchr_aligned
+0000000100032304 g     F __TEXT,__text _core::slice::memchr::memrchr
+0000000100035c90 g     F __TEXT,__text _core::option::expect_failed
+0000000100035c74 g     F __TEXT,__text _core::option::unwrap_failed
+0000000100035f68 g     F __TEXT,__text _core::result::unwrap_failed
+0000000100034d64 g     F __TEXT,__text _core::unicode::unicode_data::grapheme_extend::lookup_slow
+0000000100034d40 g     F __TEXT,__text _core::unicode::unicode_data::cc::lookup
+0000000100033ee4 g     F __TEXT,__text _core::unicode::printable::is_printable
+0000000100036060 g     F __TEXT,__text _core::panicking::panic_const::panic_const_div_by_zero
+0000000100036094 g     F __TEXT,__text _core::panicking::panic_const::panic_const_rem_by_zero
+0000000100035b20 g     F __TEXT,__text _core::panicking::assert_failed
+0000000100035d68 g     F __TEXT,__text _core::panicking::panic_nounwind
+0000000100035e48 g     F __TEXT,__text _core::panicking::panic_in_cleanup
+0000000100035de0 g     F __TEXT,__text _core::panicking::panic_bounds_check
+0000000100035cf8 g     F __TEXT,__text _core::panicking::panic_nounwind_fmt
+0000000100035e60 g     F __TEXT,__text _core::panicking::assert_failed_inner
+0000000100035e30 g     F __TEXT,__text _core::panicking::panic_cannot_unwind
+0000000100035da4 g     F __TEXT,__text _core::panicking::panic_nounwind_nobacktrace
+0000000100035d34 g     F __TEXT,__text _core::panicking::panic
+0000000100035cd8 g     F __TEXT,__text _core::panicking::panic_fmt
+0000000100031c04 g     F __TEXT,__text _<core::fmt::Formatter as core::fmt::Write>::write_char
+0000000100031940 g     F __TEXT,__text _<core::fmt::Formatter as core::fmt::Write>::write_str
+000000010001ac04 g     F __TEXT,__text _<std::io::error::Error as core::fmt::Debug>::fmt
+0000000100030f58 g     F __TEXT,__text _<core::fmt::Arguments as core::fmt::Display>::fmt
+0000000100027dec g     F __TEXT,__text _alloc::collections::btree::map::BTreeMap<K,V,A>::get
+0000000100027e78 g     F __TEXT,__text _alloc::collections::btree::map::BTreeMap<K,V,A>::entry
+0000000100027f10 g     F __TEXT,__text _alloc::collections::btree::map::entry::VacantEntry<K,V,A>::insert
+0000000100027fdc g     F __TEXT,__text _alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Leaf>::push_with_handle
+000000010002807c g     F __TEXT,__text _alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Internal>::push
+000000010002814c g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,NodeType>,alloc::collections::btree::node::marker::KV>::split_leaf_data
+000000010002814c g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,NodeType>,alloc::collections::btree::node::marker::KV>::split_leaf_data
+00000001000282b4 g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Leaf>,alloc::collections::btree::node::marker::KV>::split
+0000000100028360 g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Leaf>,alloc::collections::btree::node::marker::Edge>::insert_fit
+0000000100028480 g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Leaf>,alloc::collections::btree::node::marker::Edge>::insert_recursing
+00000001000286bc g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Leaf>,alloc::collections::btree::node::marker::Edge>::insert
+000000010002883c g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Internal>,alloc::collections::btree::node::marker::KV>::split
+00000001000289b0 g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Internal>,alloc::collections::btree::node::marker::Edge>::insert_fit
+0000000100028b1c g     F __TEXT,__text _alloc::collections::btree::node::Handle<alloc::collections::btree::node::NodeRef<alloc::collections::btree::node::marker::Mut,K,V,alloc::collections::btree::node::marker::Internal>,alloc::collections::btree::node::marker::Edge>::insert
+000000010002fdf4 g     F __TEXT,__text _alloc::ffi::c_str::CString::_from_vec_unchecked
+000000010003022c g     F __TEXT,__text _alloc::sync::arcinner_layout_for_value_layout
+0000000100035c18 g     F __TEXT,__text _alloc::alloc::handle_alloc_error
+0000000100028cd0 g     F __TEXT,__text _alloc::boxed::Box<T,A>::new_uninit_in
+0000000100028d08 g     F __TEXT,__text _alloc::boxed::Box<T,A>::new_uninit_in
+000000010002ff38 g     F __TEXT,__text _alloc::string::String::from_utf8_lossy
+0000000100028d40 g     F __TEXT,__text _alloc::raw_vec::finish_grow
+0000000100035c00 g     F __TEXT,__text _alloc::raw_vec::handle_error
+00000001000279e8 g     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+0000000100028dc8 g     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+0000000100028e0c g     F __TEXT,__text _alloc::raw_vec::RawVec<T,A>::grow_one
+0000000100028e50 g     F __TEXT,__text _alloc::raw_vec::RawVecInner<A>::grow_amortized
+0000000100028f44 g     F __TEXT,__text _alloc::raw_vec::RawVecInner<A>::try_allocate_in
+0000000100035af4 g     F __TEXT,__text _alloc::raw_vec::RawVecInner<A>::reserve::do_reserve_and_handle
+0000000100029234 g     F __TEXT,__text _gimli::read::abbrev::Attributes::push
+00000001000291a8 g     F __TEXT,__text _gimli::read::abbrev::Abbreviation::new
+000000010002906c g     F __TEXT,__text _gimli::read::abbrev::Abbreviations::insert
+000000010001aea8 g     F __TEXT,__text _<std::io::error::Error as core::fmt::Display>::fmt
+000000010001b0ac g     F __TEXT,__text _<&std::io::stdio::Stdout as std::io::Write>::write_fmt
+000000010001b238 g     F __TEXT,__text _<std::io::stdio::StdoutLock as std::io::Write>::write_all
+00000001000302fc g     F __TEXT,__text _<core::cell::BorrowMutError as core::fmt::Debug>::fmt
+000000010002fa54 g     F __TEXT,__text _<rustc_demangle::Demangle as core::fmt::Display>::fmt
+000000010002adec g     F __TEXT,__text _<rustc_demangle::v0::Ident as core::fmt::Display>::fmt
+0000000100027320 g     F __TEXT,__text _<&[u8] as object::read::read_ref::ReadRef>::read_bytes_at_until
+00000001000308d0 g     F __TEXT,__text _<core::fmt::builders::PadAdapter as core::fmt::Write>::write_char
+0000000100030680 g     F __TEXT,__text _<core::fmt::builders::PadAdapter as core::fmt::Write>::write_str
+0000000100020790 g     F __TEXT,__text _<std::sys::os_str::bytes::Slice as core::fmt::Display>::fmt
+0000000100027524 g     F __TEXT,__text _object::read::archive::parse_u64_digits
+0000000100027664 g     F __TEXT,__text _object::read::archive::parse_sysv_extended_name
+00000001000278fc g     F __TEXT,__text _object::read::ObjectMap::get
+0000000100028ffc g     F __TEXT,__text _<alloc::vec::Vec<T,A> as core::ops::drop::Drop>::drop
+0000000100028ffc g     F __TEXT,__text _<alloc::vec::Vec<T,A> as core::ops::drop::Drop>::drop
+000000010001f7dc g     F __TEXT,__text _<std::sys::pal::unix::fs::Dir as core::ops::drop::Drop>::drop
+000000010002a18c g     F __TEXT,__text _<rustc_demangle::legacy::Demangle as core::fmt::Display>::fmt
+000000010002fcd8 g     F __TEXT,__text _<&str as alloc::ffi::c_str::CString::new::SpecNewImpl>::spec_new_impl
+000000010002900c g     F __TEXT,__text _<[A] as core::slice::cmp::SlicePartialEq<B>>::equal
+00000001000293a0 g     F __TEXT,__text _<gimli::read::abbrev::Attributes as core::ops::deref::Deref>::deref
+0000000100029044 g     F __TEXT,__text _<alloc::raw_vec::RawVec<T,A> as core::ops::drop::Drop>::drop
+000000010001ef68 g     F __TEXT,__text _<std::backtrace_rs::symbolize::SymbolName as core::fmt::Display>::fmt
+000000010001c62c g     F __TEXT,__text _<std::path::Components as core::iter::traits::iterator::Iterator>::next
+000000010002fcd8 g     F __TEXT,__text _<&[u8] as alloc::ffi::c_str::CString::new::SpecNewImpl>::spec_new_impl
+0000000100020b38 g     F __TEXT,__text _<std::sys::sync::once::queue::WaiterQueue as core::ops::drop::Drop>::drop
+0000000100033978 g     F __TEXT,__text _<core::str::lossy::Utf8Chunks as core::iter::traits::iterator::Iterator>::next
+0000000100027a2c g     F __TEXT,__text _<addr2line::LocationRangeUnitIter as core::iter::traits::iterator::Iterator>::next
+000000010001f6a4 g     F __TEXT,__text _<std::sys::pal::unix::fs::ReadDir as core::iter::traits::iterator::Iterator>::next
+000000010001e860 g     F __TEXT,__text _<std::panicking::begin_panic_handler::StaticStrPayload as core::fmt::Display>::fmt
+000000010002fccc g     F __TEXT,__text _<alloc::collections::btree::mem::replace::PanicGuard as core::ops::drop::Drop>::drop
+000000010001e784 g     F __TEXT,__text _<std::panicking::begin_panic_handler::FormatStringPayload as core::fmt::Display>::fmt
+000000010001c990 g     F __TEXT,__text _<std::path::Components as core::iter::traits::double_ended::DoubleEndedIterator>::next_back
+0000000100030170 g     F __TEXT,__text _<alloc::string::String as core::convert::From<alloc::borrow::Cow<str>>>::from
+000000010001d5d4 g     F __TEXT,__text _<std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt
+000000010001e7e0 g     F __TEXT,__text _<std::panicking::begin_panic_handler::StaticStrPayload as core::panic::PanicPayload>::take_box
+0000000100027b2c g     F __TEXT,__text _addr2line::path_push
+000000010001de10 g     F __TEXT,__text ___rdl_alloc
+000000010001df3c g     F __TEXT,__text ___rdl_alloc_zeroed
+000000010001de7c g     F __TEXT,__text ___rdl_dealloc
+000000010001de8c g     F __TEXT,__text ___rdl_realloc
+00000001000211c0 g     F __TEXT,__text ___rg_oom
+00000001000009b8 g     F __TEXT,__text ___rust_alloc
+00000001000009c8 g     F __TEXT,__text ___rust_alloc_error_handler
+0000000100048380 g     O __DATA,__common ___rust_alloc_error_handler_should_panic
+00000001000009c4 g     F __TEXT,__text ___rust_alloc_zeroed
+00000001000009bc g     F __TEXT,__text ___rust_dealloc
+000000010001dfcc g     F __TEXT,__text ___rust_drop_panic
+000000010001e084 g     F __TEXT,__text ___rust_foreign_exception
+0000000100048381 g     O __DATA,__common ___rust_no_alloc_shim_is_unstable
+00000001000271f8 g     F __TEXT,__text ___rust_panic_cleanup
+00000001000009c0 g     F __TEXT,__text ___rust_realloc
+0000000100027260 g     F __TEXT,__text ___rust_start_panic
+0000000100000000 g     F __TEXT,__text __mh_execute_header
+0000000100000978 g     F __TEXT,__text _main
+000000010001e5a4 g     F __TEXT,__text _rust_begin_unwind
+0000000100020428 g     F __TEXT,__text _rust_eh_personality
+000000010001ee24 g     F __TEXT,__text _rust_panic
+0000000000000000         *UND* __Unwind_Backtrace
+0000000000000000         *UND* __Unwind_DeleteException
+0000000000000000         *UND* __Unwind_GetDataRelBase
+0000000000000000         *UND* __Unwind_GetIP
+0000000000000000         *UND* __Unwind_GetIPInfo
+0000000000000000         *UND* __Unwind_GetLanguageSpecificData
+0000000000000000         *UND* __Unwind_GetRegionStart
+0000000000000000         *UND* __Unwind_GetTextRelBase
+0000000000000000         *UND* __Unwind_RaiseException
+0000000000000000         *UND* __Unwind_Resume
+0000000000000000         *UND* __Unwind_SetGR
+0000000000000000         *UND* __Unwind_SetIP
+0000000000000000         *UND* ___error
+0000000000000000         *UND* __dyld_get_image_header
+0000000000000000         *UND* __dyld_get_image_name
+0000000000000000         *UND* __dyld_get_image_vmaddr_slide
+0000000000000000         *UND* __dyld_image_count
+0000000000000000         *UND* __tlv_atexit
+0000000000000000         *UND* __tlv_bootstrap
+0000000000000000         *UND* _abort
+0000000000000000         *UND* _bzero
+0000000000000000         *UND* _calloc
+0000000000000000         *UND* _close
+0000000000000000         *UND* _closedir
+0000000000000000         *UND* _dirfd
+0000000000000000         *UND* _dispatch_release
+0000000000000000         *UND* _dispatch_semaphore_create
+0000000000000000         *UND* _dispatch_semaphore_signal
+0000000000000000         *UND* _dispatch_semaphore_wait
+0000000000000000         *UND* _fcntl
+0000000000000000         *UND* _free
+0000000000000000         *UND* _fstat
+0000000000000000         *UND* _getcwd
+0000000000000000         *UND* _getenv
+0000000000000000         *UND* _malloc
+0000000000000000         *UND* _memcmp
+0000000000000000         *UND* _memcpy
+0000000000000000         *UND* _memmove
+0000000000000000         *UND* _mmap
+0000000000000000         *UND* _mprotect
+0000000000000000         *UND* _munmap
+0000000000000000         *UND* _open
+0000000000000000         *UND* _opendir
+0000000000000000         *UND* _posix_memalign
+0000000000000000         *UND* _pthread_get_stackaddr_np
+0000000000000000         *UND* _pthread_get_stacksize_np
+0000000000000000         *UND* _pthread_mutex_destroy
+0000000000000000         *UND* _pthread_mutex_init
+0000000000000000         *UND* _pthread_mutex_lock
+0000000000000000         *UND* _pthread_mutex_trylock
+0000000000000000         *UND* _pthread_mutex_unlock
+0000000000000000         *UND* _pthread_mutexattr_destroy
+0000000000000000         *UND* _pthread_mutexattr_init
+0000000000000000         *UND* _pthread_mutexattr_settype
+0000000000000000         *UND* _pthread_self
+0000000000000000         *UND* _pthread_setname_np
+0000000000000000         *UND* _readdir_r
+0000000000000000         *UND* _realloc
+0000000000000000         *UND* _sigaction
+0000000000000000         *UND* _sigaltstack
+0000000000000000         *UND* _signal
+0000000000000000         *UND* _strerror_r
+0000000000000000         *UND* _strlen
+0000000000000000         *UND* _sysconf
+0000000000000000         *UND* _write
+0000000000000000         *UND* dyld_stub_binder

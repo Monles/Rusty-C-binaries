@@ -1,0 +1,51 @@
+
+c-unstripped.elf:     file format mach-o-arm64
+
+
+Disassembly of section .text:
+
+0000000100003f58 <_main>:
+   100003f58:	d10083ff 	sub	sp, sp, #0x20
+   100003f5c:	a9017bfd 	stp	x29, x30, [sp, #16]
+   100003f60:	910043fd 	add	x29, sp, #0x10
+   100003f64:	52800008 	mov	w8, #0x0                   	// #0
+   100003f68:	b9000be8 	str	w8, [sp, #8]
+   100003f6c:	b81fc3bf 	stur	wzr, [x29, #-4]
+   100003f70:	90000000 	adrp	x0, 100003000 <__mh_execute_header+0x3000>
+   100003f74:	913e6000 	add	x0, x0, #0xf98
+   100003f78:	94000005 	bl	100003f8c <_main+0x34>
+   100003f7c:	b9400be0 	ldr	w0, [sp, #8]
+   100003f80:	a9417bfd 	ldp	x29, x30, [sp, #16]
+   100003f84:	910083ff 	add	sp, sp, #0x20
+   100003f88:	d65f03c0 	ret
+
+Disassembly of section __TEXT.__stubs:
+
+0000000100003f8c <__TEXT.__stubs>:
+   100003f8c:	b0000010 	adrp	x16, 100004000 <_main+0xa8>
+   100003f90:	f9400210 	ldr	x16, [x16]
+   100003f94:	d61f0200 	br	x16
+
+Disassembly of section __TEXT.__unwind_info:
+
+0000000100003fa8 <__TEXT.__unwind_info>:
+   100003fa8:	00000001 	udf	#1
+   100003fac:	0000001c 	udf	#28
+   100003fb0:	00000000 	udf	#0
+   100003fb4:	0000001c 	udf	#28
+   100003fb8:	00000000 	udf	#0
+   100003fbc:	0000001c 	udf	#28
+   100003fc0:	00000002 	udf	#2
+   100003fc4:	00003f58 	udf	#16216
+   100003fc8:	00000040 	udf	#64
+   100003fcc:	00000040 	udf	#64
+   100003fd0:	00003f8c 	udf	#16268
+   100003fd4:	00000000 	udf	#0
+   100003fd8:	00000040 	udf	#64
+	...
+   100003fe8:	00000003 	udf	#3
+   100003fec:	0001000c 	.inst	0x0001000c ; undefined
+   100003ff0:	00010010 	.inst	0x00010010 ; undefined
+   100003ff4:	00000000 	udf	#0
+   100003ff8:	04000000 	add	z0.b, p0/m, z0.b, z0.b
+   100003ffc:	00000000 	udf	#0

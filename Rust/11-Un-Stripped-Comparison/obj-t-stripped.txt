@@ -1,0 +1,4 @@
+
+rust-hello-stripped-v2:	file format mach-o 32-bit unknown
+
+SYMBOL TABLE:

@@ -1,0 +1,1 @@
+/Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/10-Hello-World-unstripped/rust-unstripped-v2/target/release/rust-unstripped-v2: /Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/10-Hello-World-unstripped/rust-unstripped-v2/src/main.rs

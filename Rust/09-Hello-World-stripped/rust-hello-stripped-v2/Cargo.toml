@@ -1,0 +1,11 @@
+[package]
+name = "rust-hello-stripped-v2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[profile.release]
+strip = "symbols"
+
