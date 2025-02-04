@@ -1,3 +1,5 @@
+/Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/09-Hello-World-stripped/rust-hello-stripped-v2/target/release/deps/rust_hello_stripped_v2-02ae2eb570bcaa30.ll: src/main.rs
+
 /Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/09-Hello-World-stripped/rust-hello-stripped-v2/target/release/deps/rust_hello_stripped_v2-02ae2eb570bcaa30: src/main.rs
 
 /Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/09-Hello-World-stripped/rust-hello-stripped-v2/target/release/deps/rust_hello_stripped_v2-02ae2eb570bcaa30.d: src/main.rs
