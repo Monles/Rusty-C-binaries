@@ -1,0 +1,1 @@
+/Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/12-simple-rust/simple-rust/target/release/simple-rust: /Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/12-simple-rust/simple-rust/src/main.rs
