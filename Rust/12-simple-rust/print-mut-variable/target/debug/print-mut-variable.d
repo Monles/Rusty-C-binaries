@@ -1,0 +1,1 @@
+/Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/12-simple-rust/print-mut-variable/target/debug/print-mut-variable: /Users/lemonyen/Documents/GitHub/Rusty-C-binaries/Rust/12-simple-rust/print-mut-variable/src/main.rs
